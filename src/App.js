@@ -1,22 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import './styles/stylus/index.css';
+import Button from './components/button/button';
+import { render } from '@testing-library/react';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <p className="App_intro">
+          Visual Regression Testing is pretty awesome!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Button label ="I am button component rendered for demo" />
+        <p className="hello">Hello</p>
       </header>
     </div>
   );

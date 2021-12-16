@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <p
+      className="App_intro"
+    >
+      Visual Regression Testing is pretty awesome!
+    </p>
+    <button
+      className="buttonStyle"
+    >
+      I am button component rendered for demo
+    </button>
+    <p
+      className="hello"
+    >
+      Hello
+    </p>
+  </header>
+</div>
+`;
