@@ -12,8 +12,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm install`
-### `npm start`
+`npm install`
+`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -21,14 +21,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+ `npm test`
 
 This command will launch 2 tests:
 - App.test.js
 - App.visual.test.js
 
 ### Usage
-In your jest config in package.json, add following:
+In your jest config in package.json, add following:git remote add origin https://github.com/abhagupta/demo-jest-stylus-transform.git
 ```
 "jest": {
     "moduleNameMapper": {
